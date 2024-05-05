@@ -160,6 +160,10 @@
     width: 1320px;
   }
 
+  .meio1-linha-final {
+    display: none;
+  }
+
   .meio1-separacao-comp {
     margin-top: 30px;
     margin-left: 120px;
@@ -290,6 +294,7 @@
   .meio8 {
     margin-left: 121px;
     display: flex;
+    margin-top: 20px;
   }
 
   .meio8-esquerda a{
@@ -343,7 +348,6 @@
     margin-right: 80px;
     margin-top: 12px;
     font-weight: bold;
-
   }
   
   .meio8-favela p{
@@ -499,10 +503,14 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.publicidade-retangular img{
+.publi-computador-imagem {
   width: 950px;
   height: 90px;
   cursor: pointer;
+}
+
+.publi-mobile-imagem {
+  display: none;
 }
 
 .publi-linha-bottom {
@@ -513,11 +521,211 @@
   height: 1%;
 }
 
+/*NAE*/
+
+.meio3 {
+  display: flex;
+  flex-direction: row;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 20px;
+}
+
+.meio3-manchete
+{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.hr 
+{
+  color: gray;
+  width: 875px;
+}
+
+.meio3-manchete a
+{
+  color: rgb(22, 22, 22);
+  text-decoration: none;
+}
+
+.meio3-manchete-lista-esquerda ul li:hover
+{
+  text-decoration: underline;
+}
+
+.meio3-manchete-lista-esquerda ul li::before
+{
+  content: ".";
+  color: #ea2300;
+  margin-right: 10px;
+  font-size: 20px;    
+}
+
+.meio3-manchete-foto  img{
+  margin-left: 60px;
+}
+
+a:hover
+{
+  text-decoration: underline;
+}
+
+.meio3-manchete-lista-esquerda a 
+{
+  color: rgb(22, 22, 22);
+  text-decoration: none;
+}
+
+a:hover
+{
+  text-decoration: underline;
+}
+
+.meio3-manchete1
+{
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.meio3-manchete-esquerda
+{
+  width: 50%;
+  float: left;
+  margin: 10px;
+}
+
+.meio3-manchete-lista-esquerda
+{
+  width: 50%;
+  float: center;
+  margin: 10px;
+}
+
+.meio3-texto
+{
+  color: rgb(22, 22, 22);
+  height: 50px;
+}
+/*Fim Manchete*/
+
+/*Superior*/
+.cantinho {
+  display: flex;
+  flex-direction: column;
+}
+
+.meio3-canto-superior
+{
+  width: 50%;
+  float: left;
+  display: flex;
+  flex-direction: row;
+}
+
+/*list-style-type: rgb(255, 51, 0);*/
+.meio3-esquerda-canto
+{
+  margin: 13px;
+}
+
+.meio3-esquerda-canto a
+{
+  color: rgb(22, 22, 22);
+  text-decoration: none;
+}
+
+a:hover
+{
+  text-decoration: underline;
+}
+
+
+/*Fim Superior*/
+
+.meio3-cantos-linha {
+  width: 875px;
+  margin: 20px 0px;
+}
+
+/*Inferior*/
+.meio3-canto-inferior
+{
+  width: 50%;
+  float: bottom;
+  display: flex;
+  flex-direction: row;
+}
+.meio3-esquerda-canto2
+{
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+
+.meio3-esquerda-canto2 a
+{
+  color: rgb(22, 22, 22);
+  text-decoration: none;
+}
+
+a:hover
+{
+  text-decoration: underline;
+}
+/*Fim Inferior*/
+
+.meio3-linha-direita-esquerda{
+  height: 950px;
+  margin: 0px 10px;
+  background-color: gray;
+}
+
+/*Direita*/
+
+.meio3-direita 
+{
+  display: flex;
+  flex-direction: column;
+  float: left;
+
+}
+
+.meio3-direita-canto 
+{
+  margin-top: 20px;
+}
+
+.meio3-direita a 
+{
+  color: rgb(22, 22, 22);
+  text-decoration: none;
+}
+
+.meio3-direita h4 
+{
+  color:rgb(22, 22, 22);
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+a:hover
+{
+  text-decoration: underline;
+}
+
+.meio3-direita-canto1 a
+{
+  text-decoration: none;
+  color: gray;
+}
+
 @media (max-width:380px) {
 
-  .body {
-    max-width: 380px;
-  }
+  /*MENU*/
+
 
   .topo {
     margin: 0;
@@ -592,6 +800,8 @@
     display: none;
   }
 
+  /*UM*/
+
   .meio1{
     margin: 0;
     flex-direction: column;
@@ -599,6 +809,7 @@
 
   .meio1-separacao {
     max-width: 380px;
+    margin: 0px;
   }
 
   .meio1-lateral-noticia1 p{
@@ -662,7 +873,7 @@
   .meio1-centro-noticia h1{
     font-size: 14px;
     width: 200px;
-    font-weight: lighter;
+    font-weight: bold;
     margin-top: 8px;
   }
 
@@ -690,5 +901,107 @@
 
   .contratktk-lateral {
     color: #000000;
+  }
+
+  .meio8 {
+      margin-left: 0px;
+      display: flex;
+      flex-direction:column ;
+  }
+
+  .meio1-separacao {
+    display: none;
+  }
+
+  .meio1-linha-final {
+    display: flex;
+    width: 330px;
+    margin-left: 20px;
+    background-color: #E6E6E6;
+    border-color: transparent;
+  }
+
+  /*OITO*/
+
+  .meio8 {
+    margin-left: 20px;
+  }
+
+  .meio8 img {
+    width: 330px;
+    height: 180px;
+    border-radius: 10px;
+  }
+
+  .meio8 hr {
+    width: 330px;
+  }
+
+  .meio8-esquerda a{
+    color: #000000;
+    text-decoration: none;
+  }
+
+  .meio8-linhas hr{
+    width: 160px;
+  }
+
+  .meio8-vozes p{
+    margin-right: 30px;
+    font-size: 12px;
+    width: 150px;
+  }
+
+  .meio8-favela p{
+    font-size: 12px;
+    width: 150px;
+  }
+
+  .meio8 fieldset {
+    margin-left: 0px;
+    width: 330px;
+  }
+
+  .meio8-email{
+    width: 280px;
+  }
+
+  .meio8-inscricao input{
+    width: 280px;
+  }
+
+  /*PUBLI*/
+  
+  .publicidade-retangular {
+    margin-left: 20px;
+  }
+
+  .publi-linha-titulo {
+    width: 40px;
+    margin-top: 4px;
+  }
+
+  .publi-retangulo-titulo h1{
+    font-size: 11px;
+  }
+
+  .publi-retangulo-titulo {
+    margin-left: 20px;
+  }
+
+  .publi-computador-imagem {
+    display: none;
+  }
+
+  .publi-mobile-imagem {
+    display: flex;
+    width: 283px;
+    height: 260px;
+    margin-left: 20px;
+  }
+
+  .publi-linha-bottom {
+    width: 283px;
+    margin-left: 20px;
   }
 }
