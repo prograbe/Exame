@@ -587,6 +587,10 @@
   margin-left: 60px;
 }
 
+.meio3-manchete-foto-mobile img {
+  display: none;
+}
+
 a:hover
 {
   text-decoration: underline;
@@ -742,13 +746,25 @@ a:hover
   display: flex;
   flex-direction: column;
   float: left;
-  width: 40%;
+  width: 60%;
   margin-right: 40px;
 }
 
 .meio3-direita-canto 
 {
   margin-top: 20px;
+}
+
+.meio3-ultimas-noticias {
+  display: flex;
+  flex-direction: row;
+  font-size: 18px;
+}
+
+.meio3-ultimas-noticias hr{
+  width: 250px;
+  height: 1%;
+  margin: 18px 0px 0px 20px;
 }
 
 .meio3-direita a 
@@ -1063,5 +1079,143 @@ a:hover
   .publi-linha-bottom {
     width: 283px;
     margin-left: 20px;
+  }
+
+  /*TRES*/
+
+  .meio3 {
+    margin:0;
+    flex-direction: column;
+  }
+
+  .meio3-manchete {
+    flex-direction: column;
+  }
+
+  .meio3-manchete-esquerda{
+    width: 350px;
+  }
+
+  .meio3-manchete-esquerda a{
+    font-size: 17px;
+  }
+
+  .meio3-manchete-foto  img{
+    display: none;
+  }
+
+  .meio3-texto p {
+    display: none;
+  }
+  
+  .meio3-manchete-foto-mobile img {
+    display: flex;
+    width: 330px;
+    height: 230px;
+  }
+
+  .meio3-manchete-lista-esquerda {
+    width: 350px;
+  }
+
+  .meio3-canto-superior {
+    width: 350px;
+    flex-direction: column;
+  }
+
+  .meio3-ladinho-esquerda-mobile {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .meio3-ladinho-esquerda-mobile img {
+    width: 160px;
+    height: 100px;
+  }
+
+  .meio3-ladinho-esquerda-mobile a {
+    width: 100px;
+  }
+
+  .meio3-ladinho-mobile-legenda {
+    display: flex;
+    flex-direction:column;
+    width: 160px;
+    height: 100px;
+    margin-left: 10px;
+    margin-top: 1px
+  }
+
+  .meio3-ladinho-mobile-legenda h6{
+    margin-top: 1px
+  }
+
+  .meio3-ladinho-mobile-legenda a{
+    width: 170px;
+    height: 90px;
+  }
+
+  .meio3-canto-inferior {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .meio3-esquerda-canto2 {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .meio3-linha-direita-esquerda {
+    display: none;
+  }
+
+  .meio3-esquerda-canto2{
+    margin-bottom: 15px;
+  }
+
+  .meio3-esquerda-canto2 img {
+    width: 160px;
+    height: 100px;
+  }
+
+  .meio3-ladinho-mobile-legenda a h4{
+    width: 160px;
+    height: 100px;
+    font-size: 15px;
+  }
+
+  .meio3-ladinho-mobile-legenda h6{
+    width: 160px;
+    height: 100px;
+    font-size: 10px;
+  }
+
+  .meio3-direita {
+    margin-left: 20px;
+    width: 88%;
+  }
+
+  .meio3-ultimas-noticias a h2 {
+    font-size: 20px;
+  }
+
+  .meio3-ultimas-noticias hr{
+    width: 177px;
+    height: 1%;
+    margin: 13px 0px 0px 10px;
+  }
+
+  .meio3-cantos-linha {
+    background-color: #E6E6E6;
+    width: 330px;
+    margin-left: 20px;
+    border-color: transparent;
+  }
+
+  .hr {
+    background-color: #E6E6E6;
+    width: 330px;
+    margin-left: 20px;
+    border-color: transparent;
   }
 }
