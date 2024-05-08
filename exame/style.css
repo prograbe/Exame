@@ -843,6 +843,10 @@ a:hover {
   width: 200px;
 }
 
+.meio9-linha-separacao-noticia-mobile {
+display: none;
+}
+
 /*Meio 4,5 e 6 (MARCILENE)*/
 
 
@@ -1072,6 +1076,44 @@ section {
   width: 32px;
   height: 32px;
   border-radius: 100%;
+}
+
+/*FOOTER(JOAO)*/
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(244, 244, 244);
+  margin-top: 500px;
+}
+
+footer h1{
+  font-size: 18px;
+}
+
+footer p{
+  font-size: 15px;
+}
+
+.footer-menu {
+  display: flex;
+  flex-direction: row;
+  padding-top: 10px;
+}
+
+.footer-menu1, .footer-menu2, .footer-menu3, .footer-menu4 {
+  margin-right: 40px;
+}
+
+footer img {
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
+}
+
+.footer-img-h1 {
+  display: flex;
+  flex-direction: row;
 }
 
 
@@ -1552,6 +1594,7 @@ section {
   }
 
   .meio9-linha-separacao-noticia-mobile {
+    display: flex;
     width: 330px;
     margin-left: 20px;
     margin-top: 20px;
